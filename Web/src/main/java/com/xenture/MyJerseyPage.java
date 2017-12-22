@@ -25,8 +25,18 @@ public class MyJerseyPage {
 		map.put(1, "Shubhasssm");
 		map.put(2, "Pradeep");
 		map.put(3, "Anjali");
-		
+		System.out.println("Get method call");
 		return map;
+		
+	}
+	
+	
+	
+	@POST
+	 @Produces(MediaType.APPLICATION_JSON)
+	public String  setname(){
+		System.out.println("Data Inserted");
+		return null;
 		
 	}
 	
