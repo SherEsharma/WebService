@@ -36,6 +36,7 @@ public class MyJerseyPage {
 	 @Produces(MediaType.APPLICATION_JSON)
 	public String  setname(){
 		System.out.println("Data Inserted");
+
 		return null;
 		
 	}

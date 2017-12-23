@@ -7,7 +7,7 @@ public class DConnection {
 	
 	//Production DB Connection
 	 private static final String Driver="com.mysql.jdbc.Driver";
-	 private static final String uri="jdbc:mysql://localhost:3306/trabaajodb";
+	 private static final String uri="jdbc:mysql://localhost:3306/tempdb";
 	 private static final String username="root";
   	 private static final String pass="";
   	 
